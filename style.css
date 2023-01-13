@@ -1,0 +1,132 @@
+body {
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #075985;
+  /* min-width: 600px; */
+}
+
+#container {
+  display: block;
+  padding: 20px;
+  width: 45vw;
+  height: 600px;
+  /* border: red solid 1.5px; */
+  /* background-color: #0284c7; */
+  background-color: #1f2937;
+  align-self: center;
+  margin: auto;
+}
+
+h1,
+h4 {
+  color: azure;
+  text-align: center;
+}
+
+button {
+  background-color: #d1d5db;
+  border-radius: 15px;
+  padding: 1em;
+  border: none;
+  margin: 20px;
+  color: #0c55bb;
+  /* align-self: center; */
+}
+
+#invoice {
+  background-color: #41a0cf;
+  width: 100%;
+  /* align-self: center; */
+  margin: 20px auto;
+}
+#total {
+  display: inline-block;
+  /* margin-right: 0; */
+  width: 45%;
+  padding: 15px 0.5em;
+  text-align: center;
+  /* text-align: right; */
+  color: azure;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* float: right; */
+  /* border: red solid 2px; */
+}
+
+#task {
+  display: inline-block;
+  text-align: center;
+  /* text-align: left; */
+  /* margin-left: 0; */
+  padding: 15px 0.5em;
+  width: 45%;
+  color: azure;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* border: red solid 2px; */
+  /* float: left; */
+}
+
+#notes {
+  display: inline-block;
+  /* border: red solid 2px; */
+  /* padding-left: 40px; */
+  margin-left: 0;
+  text-align: left;
+  color: azure;
+  padding: 0.6em;
+  width: 150px;
+}
+#amount {
+  display: inline-block;
+  /* border: red solid 2px; */
+  font-weight: bolder;
+  /* margin: 20px; */
+  color: azure;
+  text-align: center;
+  /* float: right; */
+  padding: 0.6em;
+  width: 195px;
+}
+#sum-display {
+  display: block;
+  /* border: red solid 2px; */
+  text-align: right;
+  margin-left: 0;
+  color: azure;
+  /* font-size: 1.2em; */
+  font-weight: bolder;
+  font-weight: bold;
+  float: right;
+  padding: 0.6em;
+  width: 150px;
+}
+
+.list_block {
+  display: block;
+  /* border: blue solid 2px; */
+  font-size: medium;
+  /* line-height: 2rem; */
+}
+#task_list {
+  display: inline-block;
+  color: azure;
+  /* border: yellow solid 2px; */
+  white-space: pre;
+  width: 48%;
+  vertical-align: top;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#cost_list {
+  display: inline-block;
+  color: azure;
+  /* border: gold solid 2px; */
+  white-space: pre;
+  width: 48%;
+  vertical-align: top;
+  text-align: center;
+  line-height: 2rem;
+  /* margin-top: 0; */
+}
